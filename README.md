@@ -59,14 +59,24 @@
 
 ## Transformaciones
 
+### Columnas con un espacio en el nombre:
+- Renombramos las columnas:
+    - Sex
+    - Species
+
 ### Filas Nulas:
+- Eliminamos las 17020 filas formadas por todo nulos.
+
+### Type de las columnas:
+- Transformar a int: 'Age'
+- Transformar a datetime: 'Date', 'Case Number.1', 'Case Number.2'
 
 ### Valores Nulos:
-- Dataframe de columnas eliminadas por >80% de nulos: nan_sk
+- Dataframe de columnas eliminadas por >80% de nulos: Unnamed: 22 y Unnamed: 23
 - Columna Species: convertir los nulos de species en 'unknown'
-- Columna Time: eliminar
-- Columna Age: eliminar
-- Columna Sex: convertir todo a M, F o Unknown
+- Columna Time: transformada en 'time'
+- Columna Age: 'unknown'
+- Columna Sex: 'unknown'
 - Columna Originalorder: no aporta información de valor y 75% de valores nulos, eliminada.
 - Resto de columnas tipo objeto con valores nulos: transformado a 'Unknown'
 - Resto de columnas tipo float64 con valores nulos: transformado a '0'
@@ -74,8 +84,8 @@
 ### Columnas innecesarias:
 
 ### Columnas con valores no homogéneos
+- Dejar lo más homogéneo posible las horas de 'time'
 
-### Type de las columnas:
 
 ### Bajar el peso de la bbdd:
 
