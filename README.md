@@ -59,6 +59,8 @@
 
 ## Transformaciones
 
+### Filas Nulas:
+
 ### Valores Nulos:
 - Dataframe de columnas eliminadas por >80% de nulos: nan_sk
 - Columna Species: convertir los nulos de species en 'unknown'
@@ -68,8 +70,6 @@
 - Columna Originalorder: no aporta información de valor y 75% de valores nulos, eliminada.
 - Resto de columnas tipo objeto con valores nulos: transformado a 'Unknown'
 - Resto de columnas tipo float64 con valores nulos: transformado a '0'
-
-### Filas vacías:
 
 ### Columnas innecesarias:
 
