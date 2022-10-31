@@ -14,18 +14,6 @@
     (Limpieza) Mismo tipo de dato, duplicados, etc.
 4. Presentación.
 
-## Links & Fuentes
-
-- <https://www.kaggle.com/teajay/global-shark-attacks>
-- <https://numpy.org/doc/1.18/>
-- <https://pandas.pydata.org/>
-- https://docs.python.org/3/library/functions.html
-- https://plotly.com/python/
-- https://matplotlib.org/
-- https://seaborn.pydata.org/
-- https://pandas.pydata.org/docs/
-- https://towardsdatascience.com/beware-of-storytelling-with-data-1710fea554b0?gi=537e0c10d89e
-
 
 ## Observaciones
 
@@ -81,13 +69,26 @@
 - Resto de columnas tipo objeto con valores nulos: transformado a 'Unknown'
 - Resto de columnas tipo float64 con valores nulos: transformado a '0'
 
-### Columnas innecesarias:
-
 ### Columnas con valores no homogéneos
 - Dejar lo más homogéneo posible las horas de 'time'
+- Dejar lo más homogéneo posible las fechas de 'date'
+- Dejar lo más homogéneo posible las especies de 'species'
 
 
 ### Bajar el peso de la bbdd:
+- Bajar el peso de las columnas con valor int al menor peso posible.
+
+## Links & Fuentes
+
+- <https://www.kaggle.com/teajay/global-shark-attacks>
+- <https://numpy.org/doc/1.18/>
+- <https://pandas.pydata.org/>
+- https://docs.python.org/3/library/functions.html
+- https://plotly.com/python/
+- https://matplotlib.org/
+- https://seaborn.pydata.org/
+- https://pandas.pydata.org/docs/
+- https://towardsdatascience.com/beware-of-storytelling-with-data-1710fea554b0?gi=537e0c10d89e
 
 
     
