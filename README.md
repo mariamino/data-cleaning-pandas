@@ -4,15 +4,15 @@
 
 ## Pautas del Proyecto
 
-1. Crear un repositorio nuevo
-    Src, img, data
-    Readme.md
-2. Issue (Con nuestro link pegado de nuestro repositorio)
-3. Limpieza:
-    Borrar columnas solo si tienen más de un 80% de nulos.
-    Resultado: al menos 6.000 filas
-    (Limpieza) Mismo tipo de dato, duplicados, etc.
-4. Presentación.
+- Crear un repositorio nuevo
+    - Src, img, data
+    - Readme.md
+- Issue (Con nuestro link pegado de nuestro repositorio)
+- Limpieza:
+    - Borrar columnas más de un 80% de nulos.
+    - Resultado: al menos 6.000 filas
+    - Mismo tipo de dato, duplicados, etc.
+- Presentación.
 
 
 ## Observaciones
@@ -45,6 +45,7 @@
 
 - Hay muchas filas completamente vacias (todo unknown o 0)
 
+
 ## Transformaciones
 
 ### Columnas con un espacio en el nombre:
@@ -73,10 +74,13 @@
 - Dejar lo más homogéneo posible las horas de 'time'
 - Dejar lo más homogéneo posible las fechas de 'date'
 - Dejar lo más homogéneo posible las especies de 'species'
-
+- Dejar lo más homogéneo posible las entradas de 'type'
 
 ### Bajar el peso de la bbdd:
 - Bajar el peso de las columnas con valor int al menor peso posible.
+
+
+
 
 ## Links & Fuentes
 
